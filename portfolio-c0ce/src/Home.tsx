@@ -202,7 +202,7 @@ function Home() {
       <div id="contact" className="contact">
         <p className="contacttitle">&lt;/contact&gt;</p>
         <br></br>
-        <img className="emailimg" src="../email.png" onClick={emailClick}></img>
+        <img className="emailimg" src='../email.png' onClick={emailClick}></img>
         <a href="https://instagram.com/matej_4043?igshid=NTc4MTIwNjQ2YQ==">
           <img className="instaimg" src="../instagram.png"></img>
         </a>
