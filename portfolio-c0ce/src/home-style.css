@@ -1,0 +1,271 @@
+@font-face {
+    font-family: share tech mono;
+    src: url("../ShareTechMono-Regular.ttf");
+}
+body{
+    font-family: share tech mono;
+    background-image: linear-gradient(#1B0D37, #212023 );
+    scroll-behavior: smooth;
+    /* -webkit-text-stroke: black 1px; */
+    color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.navbar{
+    overflow: hidden;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.navheading{
+    margin-right: 80px;
+}
+
+.navheading1{
+    margin-left: 80px;
+}
+
+.navbar p{
+    font-size: 48px;
+    display: inline;
+}
+
+.navbar:hover{
+    color: #0029FF;
+}
+
+.navbar a{
+    float: center;
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    margin-left: 70px;
+    margin-right: 70px;
+    -webkit-text-stroke: black 1px;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: #0029FF;
+}
+
+.navbar a:active{
+    display: inline-block; 
+    background-color: #0029FF;
+}
+
+.home{
+    margin-top: 370px;
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+}
+
+.hometitle, .hometitlebg, .homep{
+    display: inline;
+}
+
+.homeheading{
+    margin-bottom: 45px;
+}
+
+.hometitlebg{
+    display: inline-block; 
+    background-color: #0029FF;
+}
+
+
+.work{
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 370px;
+}
+.worktitle{
+    margin-left: 40%;
+}
+.workdiv{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.description{
+    position: relative;
+    width: 400px; 
+    margin-left: -40%;
+    top: 400px;
+    font-size: 24px;
+}
+
+.top{
+        background: none;
+        border: none;
+        padding: 0;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid #0029FF;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        transform: translate(0px, -150px);
+        position: relative;
+        margin-left: 75%;  
+        top: 120px;
+               
+}
+.top:hover{
+    border-top: 40px solid transparent;
+    border-bottom-color: 40px solid #0029FF;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+.bottom{
+        background: none;
+        border: none;
+        padding: 0;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-bottom: 40px solid transparent;
+        border-top: 40px solid #0029FF;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        transform: translate(0px, -150px);
+        margin-left: 75%;
+        margin-top: 1%;
+}
+.bottom:hover{
+    border-bottom: 40px solid transparent;
+    border-top-color: 40px solid #0029FF;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+.left{
+        background: none;
+        border: none;
+        padding: 0;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-right: 40px solid #0029FF;
+        transform: translate(0px, -150px);
+        position: relative;
+        bottom: 150px;
+        margin-left: 22%;
+}
+.left:hover{
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right-color: 40px solid #0029FF;
+}
+.right{
+        background: none;
+        border: none;
+        padding: 0;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-left: 40px solid #0029FF;
+        transform: translate(0px, -150px);
+        position: relative;
+        bottom: 235px;
+        margin-left: 135%;
+}
+.right:hover{
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left-color: 40px solid #0029FF;
+}
+
+.about{
+    margin-left: 110px;
+    font-size: 24px;
+}
+
+.workimg{
+    width: 852px;
+    height: 483px; 
+    /* padding: 10px; */
+    /* border: 1px solid #0029FF; */
+    margin-left: 30%
+}
+
+.worktitle, .abouttitle, .educationtitle, .internshipstitle, .employmenttitle, .contacttitle{
+    display: inline-block; 
+    background-color: #0029FF;
+    font-size: 30px;
+}
+
+.abouttitle{
+    margin-left: 40%;
+}
+
+.contact{
+    margin-right: auto;
+    margin-left: 42%;
+    width: 50px;
+    display: inline;
+}
+
+.emailimg{
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+.emailimg:hover{
+    content: url('../emailhover.png');
+}
+
+.instaimg{
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+.instaimg:hover{
+    content: url('../instagramhover.png');
+}
+
+.phoneimg{
+    width: 110px;
+    height: 110px;
+    display: inline;
+}
+.phoneimg:hover{
+    content: url('../phonehover.png');
+}
+
+.emailimg, .instaimg, .phoneimg{
+    position: relative;
+    left: 37%;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.info{
+    display: inline-block; 
+    background-color: #0029FF;
+    margin-left: 21%;
+    margin-bottom: 100px;
+}
