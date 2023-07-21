@@ -206,7 +206,7 @@ function Home() {
         <a href="https://instagram.com/matej_4043?igshid=NTc4MTIwNjQ2YQ==">
           <img className="instaimg" src="../instagram.png"></img>
         </a>
-        <img className="phoneimg" src="/phone.png" onClick={phoneClick}></img>
+        <img className="phoneimg" src="./phone.png" onClick={phoneClick}></img>
         <p className="info">{value}</p>
       </div>
     </>
