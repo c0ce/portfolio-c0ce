@@ -131,83 +131,93 @@ function Home() {
 
         <p className="navheading1">&lt;/c0ce&gt;</p>
       </div>
-      <div id="home" className="home">
-        {/* <img className="logo" src="../logo.png"></img> */}
-        <div className="homeheading">
-          <p className="hometitle">Hi, my name is </p>
-          <p className="hometitlebg">Matej Stojcheski</p>.<br></br>
-        </div>
-        <p className="homep">
-          A High School student with<br></br>
-          enthusiasm and passion towards <br></br>
-          many things, technology being <br></br>
-          one of them.
-        </p>
-      </div>
-
-      <div id="work" className="work">
-        <p className="worktitle">&lt;/work&gt;</p>
-
-        <div className="workdiv">
-          <p className="description" ref={Pdescription}>
-            {description[index]}
+      <div className="container">
+        <div id="home" className="home">
+          {/* <img className="logo" src="../logo.png"></img> */}
+          <div className="homeheading">
+            <p className="hometitle">Hi, my name is </p>
+            <p className="hometitlebg">Matej Stojcheski</p>.<br></br>
+          </div>
+          <p className="homep">
+            A High School student with<br></br>
+            enthusiasm and passion towards <br></br>
+            many things, technology being <br></br>
+            one of them.
           </p>
-          <button className="top" onClick={btnTop}></button>
-          <br></br>
-          <img src={content[index][0]} className="workimg" ref={img}></img>
-          <button className="left" onClick={btnLeft}></button>
-          <button className="right" onClick={btnRight}></button>
-          <br></br>
-          <button className="bottom" onClick={btnBottom}></button>
         </div>
-      </div>
 
-      <div id="about" className="about">
-        <p className="abouttitle">&lt;/about&gt;</p>
-        <br></br>
-        <p className="educationtitle">&lt;/education&gt;</p>
-        <p className="educationp">
-          Computer Technology and Automation, ELectrotechnical High School
-          “Mihajlo Pupin”, Skopje<br></br>
-          2020 - 2024<br></br>
-          Every year passed with a GPA above of 4.67(out of 5.00).{" "}
-        </p>
+        <div id="work" className="work">
+          <p className="worktitle">&lt;/work&gt;</p>
 
-        <p className="internshipstitle">&lt;/internships&gt;</p>
-        <p className="internshipsp">
-          Computer Technician at Setec, Skopje<br></br>
-          2021<br></br>
-          #hardware<br></br>
-          Software Development education at Aspekt, Skopje<br></br>
-          2022<br></br>
-          #HTMl, #CSS, #SQL<br></br>
-          Software Developer at Marek Engineering ,Skopje<br></br>
-          10/2022 - 06/2023<br></br>
-          #C#, #MySql, #SQL, #.NET<br></br>
-          Created a .NET Windows Form application, in a team of two. The app was
-          made to be used by<br></br>
-          companies to digitalise travel warrants, keep track of them and the
-          expenses they made,<br></br>
-          as well as their vehicles.
-        </p>
+          <div className="workdiv">
+            <p className="description" ref={Pdescription}>
+              {description[index]}
+            </p>
+            <button className="top" onClick={btnTop}></button>
+            <br></br>
+            <img src={content[index][0]} className="workimg" ref={img}></img>
+            <button className="left" onClick={btnLeft}></button>
+            <button className="right" onClick={btnRight}></button>
+            <br></br>
+            <button className="bottom" onClick={btnBottom}></button>
+          </div>
+        </div>
 
-        <p className="employmenttitle">&lt;/employment&gt;</p>
-        <p className="employmentp">
-          Front - End Developer at Marek Engineering, Skopje<br></br>
-          07/2023 - 2023<br></br>
-          Working on a WebApp in React.
-        </p>
-      </div>
+        <div id="about" className="about">
+          <p className="abouttitle">&lt;/about&gt;</p>
+          <br></br>
+          <p className="educationtitle">&lt;/education&gt;</p>
+          <p className="educationp">
+            Computer Technology and Automation, ELectrotechnical High School
+            “Mihajlo Pupin”, Skopje<br></br>
+            2020 - 2024<br></br>
+            Every year passed with a GPA above of 4.67(out of 5.00).{" "}
+          </p>
 
-      <div id="contact" className="contact">
-        <p className="contacttitle">&lt;/contact&gt;</p>
-        <br></br>
-        <img className="emailimg" src='../email.png' onClick={emailClick}></img>
-        <a href="https://instagram.com/matej_4043?igshid=NTc4MTIwNjQ2YQ==">
-          <img className="instaimg" src="../instagram.png"></img>
-        </a>
-        <img className="phoneimg" onClick={phoneClick} src="./phone.png"></img>
-        <p className="info">{value}</p>
+          <p className="internshipstitle">&lt;/internships&gt;</p>
+          <p className="internshipsp">
+            Computer Technician at Setec, Skopje<br></br>
+            2021<br></br>
+            #hardware<br></br>
+            Software Development education at Aspekt, Skopje<br></br>
+            2022<br></br>
+            #HTMl, #CSS, #SQL<br></br>
+            Software Developer at Marek Engineering ,Skopje<br></br>
+            10/2022 - 06/2023<br></br>
+            #C#, #MySql, #SQL, #.NET<br></br>
+            Created a .NET Windows Form application, in a team of two. The app
+            was made to be used by<br></br>
+            companies to digitalise travel warrants, keep track of them and the
+            expenses they made,<br></br>
+            as well as their vehicles.
+          </p>
+
+          <p className="employmenttitle">&lt;/employment&gt;</p>
+          <p className="employmentp">
+            Front - End Developer at Marek Engineering, Skopje<br></br>
+            07/2023 - 2023<br></br>
+            Working on a WebApp in React.
+          </p>
+        </div>
+
+        <div id="contact" className="contact">
+          <p className="contacttitle">&lt;/contact&gt;</p>
+          <br></br>
+          <img
+            className="emailimg"
+            src="../email.png"
+            onClick={emailClick}
+          ></img>
+          <a href="https://instagram.com/matej_4043?igshid=NTc4MTIwNjQ2YQ==">
+            <img className="instaimg" src="../instagram.png"></img>
+          </a>
+          <img
+            className="phoneimg"
+            onClick={phoneClick}
+            src="./phone.png"
+          ></img>
+          <p className="info">{value}</p>
+        </div>
       </div>
     </>
   );

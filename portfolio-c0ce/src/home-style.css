@@ -16,11 +16,15 @@ body{
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
+.container{
+    z-index: 1;
+}
 .navbar{
     overflow: hidden;
     color: white;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 .navheading{
     margin-right: 80px;
