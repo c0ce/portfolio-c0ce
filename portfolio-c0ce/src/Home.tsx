@@ -7,7 +7,7 @@ function Home() {
   const [index1, setIndex1] = useState<number>(0);
   const [content /*setContent*/] = useState<string[][]>([
     [
-      "assets/patennalog.jpg",
+      "./assets/patennalog.jpg",
       "../patennalog1.jpg",
       "../patennalog2.jpg",
       "../patennalog3.jpg",
