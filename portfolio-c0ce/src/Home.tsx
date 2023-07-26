@@ -7,7 +7,7 @@ function Home() {
   const [index1, setIndex1] = useState<number>(0);
   const [content /*setContent*/] = useState<string[][]>([
     [
-      "portfolio-c0ce/src/assets/patennalog.jpg",
+      "/portfolio-c0ce/src/assets/patennalog.jpg",
       "../patennalog1.jpg",
       "../patennalog2.jpg",
       "../patennalog3.jpg",
@@ -205,7 +205,7 @@ function Home() {
           <br></br>
           <img
             className="emailimg"
-            src="../email.png"
+            src="/../email.png"
             onClick={emailClick}
           ></img>
           <a href="https://instagram.com/matej_4043?igshid=NTc4MTIwNjQ2YQ==">
