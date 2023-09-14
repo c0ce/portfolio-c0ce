@@ -7,16 +7,16 @@ function Home() {
   const [index1, setIndex1] = useState<number>(0);
   const [content /*setContent*/] = useState<string[][]>([
     [
-      "/dist/assets/patennalog.jpg",
-      "../patennalog1.jpg",
-      "../patennalog2.jpg",
-      "../patennalog3.jpg",
-      "../patennalog5.jpg",
-      "../patennalog6.jpg",
+      "/patennalog.jpg",
+      "/patennalog1.jpg",
+      "/patennalog2.jpg",
+      "/patennalog3.jpg",
+      "/patennalog5.jpg",
+      "/patennalog6.jpg",
     ],
-    ["../musclevol1.png", "../musclevol2.png", "../musclevol3.png"],
-    ["../passgen.png", "../passgen2.png"],
-    ["../calcimg.png"],
+    ["/musclevol1.png", "/musclevol2.png", "/musclevol3.png"],
+    ["/passgen.png", "/passgen2.png"],
+    ["/calcimg.png"],
   ]);
   const img = useRef<any>(null);
   const Pdescription = useRef<any>(null);
@@ -203,19 +203,11 @@ function Home() {
         <div id="contact" className="contact">
           <p className="contacttitle">&lt;/contact&gt;</p>
           <br></br>
-          <img
-            className="emailimg"
-            src="/../email.png"
-            onClick={emailClick}
-          ></img>
+          <img className="emailimg" src="/email.png" onClick={emailClick}></img>
           <a href="https://instagram.com/matej_4043?igshid=NTc4MTIwNjQ2YQ==">
-            <img className="instaimg" src="../instagram.png"></img>
+            <img className="instaimg" src="/instagram.png"></img>
           </a>
-          <img
-            className="phoneimg"
-            onClick={phoneClick}
-            src="./phone.png"
-          ></img>
+          <img className="phoneimg" onClick={phoneClick} src="/phone.png"></img>
           <p className="info">{value}</p>
         </div>
       </div>
